@@ -1,0 +1,120 @@
+
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    width: 900px;
+    background: rgb(32, 31, 31);
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.line-1 {
+background: rgb(205, 107, 50);
+width: 50px;
+height: 50px;
+margin-left: 0;
+margin-top: 50px;
+}
+
+.line-2 {
+    background: rgb(3, 96, 245);
+    height: 50px;
+    width: 900px;
+    margin-left: 0;
+    visibility: hidden;
+}
+
+.line-1:hover + .line-2,
+.line-2:hover {
+    visibility: visible;
+}
+
+.line-3 {
+    margin-right: 0;
+    background:rgb(5, 128, 185);
+    width: 45px;
+    height: 100px;
+    visibility: hidden;
+}
+
+.line-4 {
+    background:rgb(7, 176, 243);
+    width: 900px;
+    height: 30px;
+    visibility: hidden;
+}
+
+.line-2:hover + .line-3,
+.line-3:hover {
+    visibility: visible;
+}
+
+.line-5 {
+    background:rgb(3, 217, 245);
+    height: 70px;
+    width: 20px;
+    margin-left: 0;
+    visibility: hidden;
+}
+
+.line-6 {
+    background:rgb(3, 245, 225);
+    height: 15px;
+    width: 50.6%;
+    margin-left: 0;
+    visibility: hidden;
+}
+
+.line-3:hover + .line-4,
+.line-4:hover {
+    visibility: visible;
+}
+
+.line-7 {
+    background:rgb(3, 245, 172);
+    height: 50px;
+    width: 10px;
+    visibility: hidden;
+}
+
+.line-8 {
+    background:rgb(245, 80, 3);
+    width: 20px;
+    height: 20px;
+    visibility: hidden;
+}
+
+.line-4:hover + .line-5,
+.line-5:hover {
+    visibility: visible;
+}
+
+.line-5:hover + .line-6,
+.line-6:hover {
+    visibility: visible;
+}
+
+.line-6:hover + .line-7,
+.line-7:hover {
+    visibility: visible;
+}
+
+.line-7:hover + .line-8,
+.line-8:hover {
+    visibility: visible;
+}
+
+.line-9 {
+    visibility: hidden;
+}
+
+.line-8:hover + .line-9,
+.line-9:hover {
+    visibility: visible;
+}
